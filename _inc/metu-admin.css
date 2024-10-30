@@ -1,0 +1,275 @@
+.settings_page_metu-config {
+    background: #f3f6f8;
+}
+
+.settings_page_metu-config #wpcontent {
+    padding: 0;
+}
+
+.metu__header {
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(200, 215, 225, 0.5), 0 1px 2px #e9eff3;
+    height: 50px;
+}
+
+.metu__body {
+    padding: 24px;
+}
+
+.metu__container {
+    max-width: 720px;
+    width: 100%;
+    margin: auto;
+}
+
+.metu__logo {
+    color: #23282d;
+    font-size: 1.3em;
+    height: 50px;
+    display: flex;
+}
+
+.metu__logo svg {
+    width: 150px;
+    margin: auto;
+    margin-left: 0;
+}
+
+.metu__box {
+    background: white;
+    border: 1px solid rgba(200, 215, 225, 0.5);
+    padding: 24px;
+    position: relative;
+}
+
+.metu__box .metu__title {
+    font-weight: 600;
+    color: #23282d;
+    font-size: 1.3em;
+}
+
+.metu__TL {
+    top: 24px;
+    right: 24px;
+    position: absolute;
+    display: flex;
+}
+
+.metu__TL .metu__line {
+    margin: 0 10px;
+}
+
+.metu__switch {
+    border-radius: 8px;
+    width: 24px;
+    height: 16px;
+    background: #bbb;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: all .4s ease, box-shadow 0s;
+    padding: 2px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.metu__switch:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    transition: all .2s ease;
+    display: block;
+    content: "";
+    position: absolute;
+}
+
+.active .metu__switch {
+    background: #00aadc;
+}
+
+.active .metu__switch:after {
+    right: 2px;
+}
+
+/* Thông báo */
+.metu__alert {
+    padding: 24px;
+    font-size: 16px;
+}
+
+.metu__twhite {
+    color: white;
+}
+
+.metu__bgreen {
+    background: #649316;
+}
+
+.metu__bred {
+    background: #993300;
+}
+
+/* Đăng ký, đăng nhập */
+.metu__LR {
+    margin-top: 24px;
+    display: flex;
+}
+
+.metu__login,
+.metu__register {
+    width: calc(100% / 2);
+}
+
+.metu__intro .metu__content,
+.metu__LR .metu__content {
+    margin-top: 8px;
+}
+
+.metu__LR .metu__box:first-child {
+    border-right: 0;
+}
+
+.metu__logout {
+    color: #0073aa;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    background: none;
+}
+
+.metu__register .metu__group,
+.metu__login .metu__group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.metu__register .metu__group label:first-child,
+.metu__login .metu__group label {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.metu__register .metu__group label:last-child {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 8px;
+    margin-right: 0;
+}
+
+.metu__input.error {
+    border: 1px solid red !important;
+}
+
+label.error {
+    color: red;
+}
+
+.metu__register .metu__group .metu__input,
+.metu__login .metu__group .metu__input {
+    width: 50%;
+    border: 1px solid #d5d5d5;
+    background-color: #fff;
+    transition: all .15s ease-in-out;
+    box-shadow: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.metu__register .metu__group .metu__button,
+.metu__login .metu__group .metu__button {
+    background: #00aadc;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 11px;
+    padding: 7px;
+    text-transform: uppercase;
+    border-color: #0087be;
+    line-height: 1;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+}
+
+.metu__config {
+    height: 500px;
+    text-align: center;
+}
+
+.metu__config .metu__content:first-child {
+    padding-top: 211px;
+}
+
+.metu__config .metu__content {
+    margin-top: 8px;
+}
+
+.bootrap__alert {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    width: calc(100% - 41px);
+    left: 0;
+    bottom: -17px;
+    position: absolute;
+}
+
+.bootrap__button {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-decoration: none;
+}
+
+.bootrap__button:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.f-s-16 {
+    font-size: 16px;
+}
+
+.metu__logout:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+    .metu__LR {
+        display: inherit;
+    }
+
+    .metu__login,
+    .metu__register {
+        width: inherit;
+    }
+
+    .metu__LR .metu__box:first-child {
+        border: 1px solid rgba(200, 215, 225, 0.5);
+        border-bottom: 1px;
+    }
+}
